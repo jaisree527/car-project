@@ -1,0 +1,6 @@
+import pandas as pd
+# Load dataset
+data = pd.read_csv("car evaluation_with.csv")
+# Show first 5 rows
+print(data.head())
+print("Project Successfully Executed")
